@@ -41,6 +41,8 @@ namespace Supermercado {
 	private: System::Windows::Forms::Button^  button2;
 	private: System::Windows::Forms::Button^  button3;
 	private: System::Windows::Forms::Button^  button4;
+	private: System::Windows::Forms::Button^  button5;
+	private: System::Windows::Forms::Label^  label1;
 	protected:
 
 	private:
@@ -60,6 +62,8 @@ namespace Supermercado {
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button4 = (gcnew System::Windows::Forms::Button());
+			this->button5 = (gcnew System::Windows::Forms::Button());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// button1
@@ -102,11 +106,32 @@ namespace Supermercado {
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &Clientes::button4_Click);
 			// 
+			// button5
+			// 
+			this->button5->Location = System::Drawing::Point(24, 263);
+			this->button5->Name = L"button5";
+			this->button5->Size = System::Drawing::Size(82, 37);
+			this->button5->TabIndex = 4;
+			this->button5->Text = L"Número de Cliente";
+			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &Clientes::button5_Click);
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Location = System::Drawing::Point(134, 275);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(35, 13);
+			this->label1->TabIndex = 5;
+			this->label1->Text = L"label1";
+			// 
 			// Clientes
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(284, 262);
+			this->ClientSize = System::Drawing::Size(280, 337);
+			this->Controls->Add(this->label1);
+			this->Controls->Add(this->button5);
 			this->Controls->Add(this->button4);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
@@ -114,6 +139,7 @@ namespace Supermercado {
 			this->Name = L"Clientes";
 			this->Text = L"Clientes";
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
@@ -162,5 +188,27 @@ namespace Supermercado {
 
 
 	}
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 StreamReader^clientes = gcnew StreamReader("Clientes1.txt");
+			 String ^Linea = clientes->ReadLine();
+
+			 int contador = 0;
+
+			 while (Linea != nullptr)
+			 {
+				 contador++;
+				 Linea = clientes->ReadLine();
+			 }
+
+
+			 clientes->Close();
+
+			 label1->Text = Convert::ToString(contador);
+
+
+
+
+}
 };
 }
