@@ -1,0 +1,37 @@
+﻿Compilación iniciada a las 29/06/2016 01:22:35 p.m..
+     1>Proyecto "C:\Users\perfil\Desktop\LABORATORIO-6K\Laboratorio\Supermercado\Supermercado\Supermercado.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Fidelizacion.cpp Inicio.cpp
+         Fidelizacion.cpp
+     1>c:\users\perfil\desktop\laboratorio-6k\laboratorio\supermercado\supermercado\Fidelizacion.h(4): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+         Inicio.cpp
+     1>c:\users\perfil\desktop\laboratorio-6k\laboratorio\supermercado\supermercado\Comprar.h(280): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+     1>c:\users\perfil\desktop\laboratorio-6k\laboratorio\supermercado\supermercado\Fidelizacion.h(4): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\perfil\Desktop\LABORATORIO-6K\Laboratorio\Supermercado\Debug\Supermercado.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Supermercado.ClienteProm.resources /ASSEMBLYRESOURCE:Debug\Supermercado.Clientes.resources /ASSEMBLYRESOURCE:Debug\Supermercado.Comprar.resources /ASSEMBLYRESOURCE:Debug\Supermercado.CrearCliente.resources /ASSEMBLYRESOURCE:Debug\Supermercado.EliminarCliente.resources /ASSEMBLYRESOURCE:Debug\Supermercado.EliminarProducto.resources /ASSEMBLYRESOURCE:Debug\Supermercado.Facturas.resources /ASSEMBLYRESOURCE:Debug\Supermercado.Fidelizacion.resources /ASSEMBLYRESOURCE:Debug\Supermercado.Inicio.resources /ASSEMBLYRESOURCE:Debug\Supermercado.ListarClientes.resources /ASSEMBLYRESOURCE:Debug\Supermercado.ListarFacturaCliente.resources /ASSEMBLYRESOURCE:Debug\Supermercado.ListarFacturas.resources /ASSEMBLYRESOURCE:Debug\Supermercado.ListarProductos.resources /ASSEMBLYRESOURCE:Debug\Supermercado.MayoresADiez.resources /ASSEMBLYRESOURCE:Debug\Supermercado.ModificarDatos.resources /ASSEMBLYRESOURCE:Debug\Supermercado.ModificarProducto.resources /ASSEMBLYRESOURCE:Debug\Supermercado.NuevoProducto.resources /ASSEMBLYRESOURCE:Debug\Supermercado.PrecioTotal.resources /ASSEMBLYRESOURCE:Debug\Supermercado.Productos.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\perfil\Desktop\LABORATORIO-6K\Laboratorio\Supermercado\Debug\Supermercado.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\ClienteProm.obj
+         Debug\Clientes.obj
+         Debug\Comprar.obj
+         Debug\CrearCliente.obj
+         Debug\EliminarCliente.obj
+         Debug\EliminarProducto.obj
+         Debug\Facturas.obj
+         Debug\Fidelizacion.obj
+         Debug\Inicio.obj
+         Debug\ListarClientes.obj
+         Debug\ListarFacturaCliente.obj
+         Debug\ListarFacturas.obj
+         Debug\ListarProductos.obj
+         Debug\MayoresADiez.obj
+         Debug\ModificarDatos.obj
+         Debug\ModificarProducto.obj
+         Debug\NuevoProducto.obj
+         Debug\PrecioTotal.obj
+         Debug\Productos.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Supermercado.vcxproj -> C:\Users\perfil\Desktop\LABORATORIO-6K\Laboratorio\Supermercado\Debug\Supermercado.exe
+     1>Compilación del proyecto terminada "C:\Users\perfil\Desktop\LABORATORIO-6K\Laboratorio\Supermercado\Supermercado\Supermercado.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.24

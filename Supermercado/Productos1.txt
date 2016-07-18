@@ -1,0 +1,6 @@
+1094;Panela;1000
+1234;Arroz;2500
+1092;Gol;500
+1031;Snickers;900
+1091;Gol;500
+1891;Snickers;700

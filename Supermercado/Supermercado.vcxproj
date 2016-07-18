@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE5BD28F-379A-46D4-A933-79F5C3CF07D3}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Supermercado</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClienteProm.cpp" />
+    <ClCompile Include="Clientes.cpp" />
+    <ClCompile Include="Comprar.cpp" />
+    <ClCompile Include="CrearCliente.cpp" />
+    <ClCompile Include="EliminarCliente.cpp" />
+    <ClCompile Include="EliminarProducto.cpp" />
+    <ClCompile Include="Facturas.cpp" />
+    <ClCompile Include="Fidelizacion.cpp" />
+    <ClCompile Include="Inicio.cpp" />
+    <ClCompile Include="ListarClientes.cpp" />
+    <ClCompile Include="ListarFacturaCliente.cpp" />
+    <ClCompile Include="ListarFacturas.cpp" />
+    <ClCompile Include="ListarProductos.cpp" />
+    <ClCompile Include="MayoresADiez.cpp" />
+    <ClCompile Include="ModificarDatos.cpp" />
+    <ClCompile Include="ModificarProducto.cpp" />
+    <ClCompile Include="NuevoProducto.cpp" />
+    <ClCompile Include="PrecioTotal.cpp" />
+    <ClCompile Include="Productos.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClienteProm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Clientes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Comprar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CrearCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EliminarCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EliminarProducto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Facturas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Fidelizacion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Inicio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ListarClientes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ListarFacturaCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ListarFacturas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ListarProductos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MayoresADiez.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ModificarDatos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ModificarProducto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NuevoProducto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PrecioTotal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Productos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ClienteProm.resx">
+      <DependentUpon>ClienteProm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comprar.resx">
+      <DependentUpon>Comprar.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearCliente.resx">
+      <DependentUpon>CrearCliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarCliente.resx">
+      <DependentUpon>EliminarCliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarProducto.resx">
+      <DependentUpon>EliminarProducto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturas.resx">
+      <DependentUpon>Facturas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fidelizacion.resx">
+      <DependentUpon>Fidelizacion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarClientes.resx">
+      <DependentUpon>ListarClientes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarFacturaCliente.resx">
+      <DependentUpon>ListarFacturaCliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarFacturas.resx">
+      <DependentUpon>ListarFacturas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarProductos.resx">
+      <DependentUpon>ListarProductos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MayoresADiez.resx">
+      <DependentUpon>MayoresADiez.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarDatos.resx">
+      <DependentUpon>ModificarDatos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarProducto.resx">
+      <DependentUpon>ModificarProducto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoProducto.resx">
+      <DependentUpon>NuevoProducto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrecioTotal.resx">
+      <DependentUpon>PrecioTotal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

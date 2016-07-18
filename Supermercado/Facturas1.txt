@@ -1,0 +1,2 @@
+448;5500;12555244;Gol-500,Arroz-2500,Arroz-2500,Gol-500;88
+546;11200;1083010928;Snickers-700,Gol-500,Arroz-2500,Arroz-2500,Arroz-2500,Arroz-2500,Snickers-700;fff
